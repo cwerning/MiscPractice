@@ -9,14 +9,20 @@ package miscpractice;
  *
  * @author cwerning
  */
-public class MiscPractice {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Dog dog = new Dog();
-        dog.age = 99;
+public class Dog {
+    private int age;
+    
+    public void speak(){
+        System.out.println("bark");
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+    
     
 }
