@@ -16,7 +16,10 @@ public class MiscPractice {
      */
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.age = 99;
+        Dog dog2 = new Dog();
+        dog.setAge(19);
+        
+        System.out.println(dog.getCount());
     }
     
 }
